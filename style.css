@@ -1,0 +1,593 @@
+.HOMEPAGE {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.HOMEPAGE .en-tete {
+    display: flex;
+    flex-direction: column;
+    height: 810px;
+    align-items: flex-start;
+    gap: 7.5px;
+    padding: 112.5px 18px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    background-image: url(./sprites/en-tete.png);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.HOMEPAGE .music-is-a-recipe {
+    position: relative;
+    align-self: stretch;
+    margin-top: -0.75px;
+    font-family: "Pilat Wide-Book", Helvetica;
+    font-weight: 400;
+    color: #181a17;
+    font-size: 102px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: 81.6px;
+}
+
+.HOMEPAGE .qui-sommes-nous {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 97.5px;
+    padding: 100.5px 101.25px;
+    position: relative;
+    align-self: stretch;
+    background-color: #f6f6f6;
+}
+
+.HOMEPAGE .titre {
+    align-self: stretch;
+    width: 100%;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.HOMEPAGE .quatre-passionn-s-de {
+    position: relative;
+    width: 576px;
+    margin-bottom: -1.5px;
+    font-family: "Favorit-ExpandedLight", Helvetica;
+    font-weight: 300;
+    color: #181a17;
+    font-size: 21px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .groupe-evenements {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.HOMEPAGE .groupe {
+    display: flex;
+    align-items: flex-start;
+    gap: 7.5px;
+    padding: 150px 61.5px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.HOMEPAGE .bloc-groupe {
+    gap: 51px 37.5px;
+    flex: 1;
+    flex-grow: 1;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.HOMEPAGE .img {
+    position: relative;
+    width: 419.25px;
+    height: 495.75px;
+    object-fit: cover;
+}
+
+.HOMEPAGE .liste-groupe {
+    flex-direction: column;
+    width: 772.5px;
+    align-items: flex-start;
+    gap: 54px;
+    display: flex;
+    position: relative;
+}
+
+.HOMEPAGE .div {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.HOMEPAGE .numero-nom {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.HOMEPAGE .text-wrapper {
+    width: fit-content;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -0.75px;
+    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-weight: 400;
+    color: #131915;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.HOMEPAGE .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: "Pilat Wide-Bold", Helvetica;
+    font-weight: 700;
+    color: #131915;
+    font-size: 81px;
+    letter-spacing: 0;
+    line-height: 81px;
+    white-space: nowrap;
+}
+
+.HOMEPAGE .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    font-family: "Favorit-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #131915;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.HOMEPAGE .div-2 {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.HOMEPAGE .numero-nom-2 {
+    width: 519px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+}
+
+.HOMEPAGE .text-wrapper-4 {
+    width: 31.5px;
+    height: 27px;
+    position: relative;
+    margin-top: -0.75px;
+    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-weight: 400;
+    color: #131915;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.HOMEPAGE .UK-GARAGE-HOUSE-UK {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: "Favorit-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #131915;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.HOMEPAGE .numero-nom-3 {
+    width: 468px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    position: relative;
+}
+
+.HOMEPAGE .logo {
+    position: relative;
+    width: 447.4px;
+    height: 447.4px;
+    margin-top: -224.25px;
+    object-fit: cover;
+}
+
+.HOMEPAGE .evenements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.5px;
+    padding: 39px 18px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-top: -224.25px;
+}
+
+.HOMEPAGE .bloc-evenement {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 45px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.HOMEPAGE .titre-lieu {
+    display: flex;
+    flex-direction: column;
+    width: 778.5px;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0px 27.75px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.HOMEPAGE .paris {
+    position: relative;
+    align-self: stretch;
+    height: 27px;
+    margin-top: -0.75px;
+    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-weight: 400;
+    color: #181a17;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.HOMEPAGE .v-nements-pr-c-dents {
+    position: relative;
+    align-self: stretch;
+    font-family: "Pilat Wide-Bold", Helvetica;
+    font-weight: 700;
+    color: #181a17;
+    font-size: 81px;
+    letter-spacing: 0;
+    line-height: 81px;
+}
+
+.HOMEPAGE .liste-evenements {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 32px 24px;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    position: relative;
+}
+
+.HOMEPAGE .evenement {
+    width: 329.25px;
+    align-items: flex-start;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.HOMEPAGE .faurance {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 381.75px;
+    object-fit: cover;
+}
+
+.HOMEPAGE .line {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+}
+
+.HOMEPAGE .gambetta-club {
+    position: relative;
+    width: 186.75px;
+    margin-top: -0.75px;
+    font-family: "ABC Favorit-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #181a17;
+    font-size: 22.5px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .janv {
+    position: relative;
+    width: 90.75px;
+    margin-top: -0.75px;
+    font-family: "ABC Favorit-Book", Helvetica;
+    font-weight: 400;
+    color: #181a17;
+    font-size: 13.5px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .evenement-2 {
+    width: 333px;
+    align-items: flex-end;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.HOMEPAGE .element {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 381.75px;
+}
+
+.HOMEPAGE .l-injuste-bar {
+    position: relative;
+    width: 155.25px;
+    margin-top: -0.75px;
+    font-family: "ABC Favorit-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #181a17;
+    font-size: 22.5px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .fev {
+    position: relative;
+    width: 90.75px;
+    font-family: "ABC Favorit-Regular", Helvetica;
+    font-weight: 400;
+    color: #181a17;
+    font-size: 13.5px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .evenement-3 {
+    width: 335.25px;
+    align-items: flex-start;
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.HOMEPAGE .IMG {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 383.25px;
+}
+
+.HOMEPAGE .sold-out {
+    position: relative;
+    width: 112.5px;
+    margin-top: -0.75px;
+    font-family: "ABC Favorit-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #181a17;
+    font-size: 22.5px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .juin {
+    position: relative;
+    width: 90.75px;
+    margin-top: -0.75px;
+    font-family: "ABC Favorit-Regular", Helvetica;
+    font-weight: 400;
+    color: #181a17;
+    font-size: 13.5px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .evenement-4 {
+    width: 333.75px;
+    align-items: flex-start;
+    gap: 17.25px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.HOMEPAGE .group {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 381.75px;
+    background-image: url(./sprites/rectangle-2.png);
+    background-size: 100% 100%;
+}
+
+.HOMEPAGE .mishmish {
+    position: relative;
+    width: 114.75px;
+    margin-top: -0.75px;
+    font-family: "ABC Favorit-LightItalic", Helvetica;
+    font-weight: 300;
+    font-style: italic;
+    color: #181a17;
+    font-size: 22.5px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .nous-contacter {
+    display: flex;
+    width: 1440px;
+    height: 753px;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 9px 28.5px 18px;
+    position: relative;
+    overflow: hidden;
+}
+
+.HOMEPAGE .type-musique {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -186px;
+}
+
+.HOMEPAGE .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: "Pilat Wide-Bold", Helvetica;
+    font-weight: 700;
+    color: #f6f6f6;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 96px;
+    white-space: nowrap;
+}
+
+.HOMEPAGE .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    font-family: "Pilat Wide-Bold", Helvetica;
+    font-weight: 700;
+    color: #f6f6f6;
+    font-size: 96px;
+    letter-spacing: 0;
+    line-height: 96px;
+    white-space: nowrap;
+}
+
+.HOMEPAGE .photo-contact {
+    display: flex;
+    flex-direction: column;
+    width: 576px;
+    align-items: flex-start;
+    gap: 75px;
+    position: relative;
+}
+
+.HOMEPAGE .photo-contacter {
+    position: relative;
+    width: 458.25px;
+    height: 480px;
+    object-fit: cover;
+}
+
+.HOMEPAGE .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 22.5px;
+    padding: 18px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: #9f9fff;
+}
+
+.HOMEPAGE .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: "Pilat Wide-Demi", Helvetica;
+    font-weight: 400;
+    color: #181a17;
+    font-size: 30px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .vector {
+    position: relative;
+    width: 39.06px;
+    height: 20.04px;
+}
+
+.HOMEPAGE .pour-l-organisation {
+    position: relative;
+    width: 353.25px;
+    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-weight: 400;
+    color: #181a17;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.HOMEPAGE .liens {
+    display: flex;
+    width: 537.75px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.HOMEPAGE .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.75px;
+    font-family: "Favorit-ExtendedRegular", Helvetica;
+    font-weight: 400;
+    color: #201b1c;
+    font-size: 9.8px;
+    text-align: justify;
+    letter-spacing: 0;
+    line-height: normal;
+}
