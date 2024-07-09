@@ -1,0 +1,128 @@
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.artiste {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 24px;
+    position: relative;
+    background-color: #ffffff;
+    }
+
+.artiste .top-part {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 60px 60px;
+    position: relative;
+    }
+
+
+
+.artiste .logo {
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.artiste .image {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    height: 530.25px;
+    margin-bottom: -4.4px;
+    object-fit: cover;
+}
+
+.artiste .right-part {
+    display: flex;
+    flex-direction: column;
+    height: 530.25px;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-bottom: -4.4px;
+}
+
+
+
+.artiste .liens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 49.5px 49.5px;
+    padding: 39px 60px;
+    position: relative;
+    }
+
+.artiste .lien {
+    position: relative;
+    margin-top: -0.75px;
+    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-weight: 400;
+    color: #181a17;
+    font-size: 10.5px;
+    letter-spacing: 0;
+    line-height: 10.5px;
+}
+
+
+.artiste .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.artiste .description {
+    position: relative;
+    flex: 1;
+    margin-top: -0.75px;
+    font-family: "Favorit-Light", Helvetica;
+    font-weight: 300;
+    color: #181a17;
+    font-size: 16.5px;
+    letter-spacing: 0;
+    line-height: 16.5px;
+}
+
+.artiste .VELOURS {
+    position: relative;
+    width: 90%;
+
+}
+
+.artiste .bottom-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 18px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+}
+
+.artiste .type-son {
+    position: relative;
+    height: 36px;
+    margin-top: -0.75px;
+    font-family: "Pilat Wide-Regular", Helvetica;
+    font-weight: 400;
+    color: #181a17;
+    font-size: 21px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+

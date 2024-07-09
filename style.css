@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+}
+
 .HOMEPAGE {
     display: flex;
     flex-direction: column;
@@ -15,7 +19,6 @@
     padding: 112.5px 18px 0px;
     position: relative;
     align-self: stretch;
-    width: 100%;
     background-image: url(./sprites/en-tete.png);
     background-size: cover;
     background-position: 50% 50%;
@@ -83,7 +86,6 @@
     padding: 150px 61.5px;
     position: relative;
     align-self: stretch;
-    width: 100%;
     flex: 0 0 auto;
 }
 
@@ -122,6 +124,7 @@
     align-self: stretch;
     width: 100%;
     flex: 0 0 auto;
+    text-decoration: none;
 }
 
 .HOMEPAGE .numero-nom {
@@ -145,7 +148,7 @@
     line-height: 18px;
 }
 
-.HOMEPAGE .text-wrapper-2 {
+.HOMEPAGE .nom-artiste {
     position: relative;
     width: fit-content;
     margin-top: -0.75px;
@@ -158,7 +161,7 @@
     white-space: nowrap;
 }
 
-.HOMEPAGE .text-wrapper-3 {
+.HOMEPAGE .style-artiste {
     position: relative;
     width: fit-content;
     font-family: "Favorit-LightItalic", Helvetica;
@@ -170,15 +173,6 @@
     line-height: 18px;
 }
 
-.HOMEPAGE .div-2 {
-    align-items: flex-start;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    align-self: stretch;
-    width: 100%;
-    flex: 0 0 auto;
-}
 
 .HOMEPAGE .numero-nom-2 {
     width: 519px;
@@ -188,7 +182,7 @@
     position: relative;
 }
 
-.HOMEPAGE .text-wrapper-4 {
+.HOMEPAGE .numero-artiste {
     width: 31.5px;
     height: 27px;
     position: relative;
@@ -201,18 +195,7 @@
     line-height: 18px;
 }
 
-.HOMEPAGE .UK-GARAGE-HOUSE-UK {
-    position: relative;
-    width: fit-content;
-    margin-top: -0.75px;
-    font-family: "Favorit-LightItalic", Helvetica;
-    font-weight: 300;
-    font-style: italic;
-    color: #131915;
-    font-size: 18px;
-    letter-spacing: 0;
-    line-height: 18px;
-}
+
 
 .HOMEPAGE .numero-nom-3 {
     width: 468px;
@@ -238,7 +221,6 @@
     padding: 39px 18px;
     position: relative;
     align-self: stretch;
-    width: 100%;
     flex: 0 0 auto;
     margin-top: -224.25px;
 }
@@ -467,8 +449,7 @@
 
 .HOMEPAGE .nous-contacter {
     display: flex;
-    width: 1440px;
-    height: 753px;
+    width: 90%;
     align-items: flex-start;
     justify-content: space-between;
     padding: 9px 28.5px 18px;
@@ -514,7 +495,6 @@
 .HOMEPAGE .photo-contact {
     display: flex;
     flex-direction: column;
-    width: 576px;
     align-items: flex-start;
     gap: 75px;
     position: relative;
@@ -535,7 +515,6 @@
     padding: 18px;
     position: relative;
     align-self: stretch;
-    width: 100%;
     flex: 0 0 auto;
     background-color: #9f9fff;
 }
