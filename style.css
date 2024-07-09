@@ -1,3 +1,81 @@
+@font-face {
+    font-family: 'ABC Favorit Book';
+    src: url('/fonts/ABC Favorit/ABCFavorit-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ABC Favorit LightItalic';
+    src: url('/fonts/ABC-Favorit/ABCFavorit-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ABC Favorit Regular';
+    src: url('/fonts/ABC-Favorit/ABCFavorit-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Favorit Light';
+    src: url('/fonts/Favorit/Favorit-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Favorit Expanded Light';
+    src: url('/fonts/Favorit/Favorit-LightExpanded.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Favorit Expanded Regular';
+    src: url('/fonts/Favorit/Favorit-RegularExpanded.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Favorit LightItalic';
+    src: url('/fonts/Favorit/Favorit-LightIta.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Favorit Extended Regular';
+    src: url('/fonts/Favorit/Favorit-RegularExtended.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat-Wide Bold';
+    src: url('/fonts/Pilat-Wide/Pilat-Wide-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Wide Book';
+    src: url('/fonts/Pilat-Wide/Pilat-Wide-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Pilat Wide Demi';
+    src: url('/fonts/Pilat-Wide/Pilat-Wide-Demi.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body{
     margin: 0;
 }
@@ -59,7 +137,7 @@ body{
     position: relative;
     width: 576px;
     margin-bottom: -1.5px;
-    font-family: "Favorit-ExpandedLight", Helvetica;
+    font-family: "Favorit Expanded Light", Helvetica;
     font-weight: 300;
     color: #181a17;
     font-size: 21px;
@@ -140,7 +218,7 @@ body{
     white-space: nowrap;
     position: relative;
     margin-top: -0.75px;
-    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-family: "Favorit Expanded Regular", Helvetica;
     font-weight: 400;
     color: #131915;
     font-size: 18px;
@@ -164,7 +242,7 @@ body{
 .HOMEPAGE .style-artiste {
     position: relative;
     width: fit-content;
-    font-family: "Favorit-LightItalic", Helvetica;
+    font-family: "Favorit LightItalic", Helvetica;
     font-weight: 300;
     font-style: italic;
     color: #131915;
@@ -187,7 +265,7 @@ body{
     height: 27px;
     position: relative;
     margin-top: -0.75px;
-    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-family: "Favorit ExpandedRegular", Helvetica;
     font-weight: 400;
     color: #131915;
     font-size: 18px;
@@ -252,7 +330,7 @@ body{
     align-self: stretch;
     height: 27px;
     margin-top: -0.75px;
-    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-family: "Favorit ExpandedRegular", Helvetica;
     font-weight: 400;
     color: #181a17;
     font-size: 18px;
@@ -311,7 +389,7 @@ body{
     position: relative;
     width: 186.75px;
     margin-top: -0.75px;
-    font-family: "ABC Favorit-LightItalic", Helvetica;
+    font-family: "ABC Favorit LightItalic", Helvetica;
     font-weight: 300;
     font-style: italic;
     color: #181a17;
@@ -324,7 +402,7 @@ body{
     position: relative;
     width: 90.75px;
     margin-top: -0.75px;
-    font-family: "ABC Favorit-Book", Helvetica;
+    font-family: "ABC Favorit Book", Helvetica;
     font-weight: 400;
     color: #181a17;
     font-size: 13.5px;
@@ -353,7 +431,7 @@ body{
     position: relative;
     width: 155.25px;
     margin-top: -0.75px;
-    font-family: "ABC Favorit-LightItalic", Helvetica;
+    font-family: "ABC Favorit LightItalic", Helvetica;
     font-weight: 300;
     font-style: italic;
     color: #181a17;
@@ -365,7 +443,7 @@ body{
 .HOMEPAGE .fev {
     position: relative;
     width: 90.75px;
-    font-family: "ABC Favorit-Regular", Helvetica;
+    font-family: "ABC Favorit Regular", Helvetica;
     font-weight: 400;
     color: #181a17;
     font-size: 13.5px;
@@ -394,7 +472,7 @@ body{
     position: relative;
     width: 112.5px;
     margin-top: -0.75px;
-    font-family: "ABC Favorit-LightItalic", Helvetica;
+    font-family: "ABC Favorit LightItalic", Helvetica;
     font-weight: 300;
     font-style: italic;
     color: #181a17;
@@ -407,7 +485,7 @@ body{
     position: relative;
     width: 90.75px;
     margin-top: -0.75px;
-    font-family: "ABC Favorit-Regular", Helvetica;
+    font-family: "ABC Favorit Regular", Helvetica;
     font-weight: 400;
     color: #181a17;
     font-size: 13.5px;
@@ -438,7 +516,7 @@ body{
     position: relative;
     width: 114.75px;
     margin-top: -0.75px;
-    font-family: "ABC Favorit-LightItalic", Helvetica;
+    font-family: "ABC Favorit LightItalic", Helvetica;
     font-weight: 300;
     font-style: italic;
     color: #181a17;
@@ -541,7 +619,7 @@ body{
 .HOMEPAGE .pour-l-organisation {
     position: relative;
     width: 353.25px;
-    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-family: "Favorit Expanded Regular", Helvetica;
     font-weight: 400;
     color: #181a17;
     font-size: 15px;
@@ -562,7 +640,7 @@ body{
     position: relative;
     width: fit-content;
     margin-top: -0.75px;
-    font-family: "Favorit-ExtendedRegular", Helvetica;
+    font-family: "Favorit Extended Regular", Helvetica;
     font-weight: 400;
     color: #201b1c;
     font-size: 9.8px;

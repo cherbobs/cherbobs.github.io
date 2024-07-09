@@ -1,3 +1,26 @@
+
+@font-face {
+    font-family: 'Pilat Wide Regular';
+    src: url('/fonts/Pilat-Wide/Pilat-Wide-Demi.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Favorit Expanded Regular';
+    src: url('/fonts/Favorit/Favorit-RegularExpanded.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Favorit Light';
+    src: url('/fonts/Favorit/Favorit-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 body{
     height: 100vh;
     margin: 0;
@@ -66,7 +89,7 @@ body{
 .artiste .lien {
     position: relative;
     margin-top: -0.75px;
-    font-family: "Favorit-ExpandedRegular", Helvetica;
+    font-family: "Favorit Expanded Regular", Helvetica;
     font-weight: 400;
     color: #181a17;
     font-size: 10.5px;
@@ -90,7 +113,7 @@ body{
     position: relative;
     flex: 1;
     margin-top: -0.75px;
-    font-family: "Favorit-Light", Helvetica;
+    font-family: "Favorit Light", Helvetica;
     font-weight: 300;
     color: #181a17;
     font-size: 16.5px;
@@ -118,7 +141,7 @@ body{
     position: relative;
     height: 36px;
     margin-top: -0.75px;
-    font-family: "Pilat Wide-Regular", Helvetica;
+    font-family: "Pilat Wide Regular", Helvetica;
     font-weight: 400;
     color: #181a17;
     font-size: 21px;
